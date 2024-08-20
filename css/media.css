@@ -1,0 +1,18 @@
+@media(max-width:992px){
+    .w-md{
+        display: none;
+    }
+}
+
+@media(min-width:1669px){
+    .w-xl{
+        display: none;
+    }
+}
+
+@media(max-width:1199px){
+    .w-md-3{
+        width:33.33px;
+    }
+}
+
