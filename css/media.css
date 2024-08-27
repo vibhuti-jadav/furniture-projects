@@ -2,6 +2,8 @@
     .w-md{
         display: none;
     }
+   
+
 }
 
 @media(min-width:1669px){
@@ -10,9 +12,12 @@
     }
 }
 
-@media(max-width:1199px){
-    .w-md-3{
-        width:33.33px;
+
+
+@media(min-width:992px){
+    .w-md-1{
+        display: none;
     }
 }
+
 
