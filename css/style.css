@@ -103,7 +103,7 @@ button{
 
 .container{
     border: 1px solid red;
-    height: 800px;
+   
     max-width: 1350px;
     overflow-x: scroll;
     margin: auto;
@@ -123,24 +123,178 @@ button{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box-two{
     border: 1px solid orchid;
     width: 50%;
-  
+    padding-top: 10%;
 }
 
 .box-item{
-    border: 3px solid palegreen;
-    height:100%;
+    
     width: 100%;
-
+    
 }
 
 .box-img{
     border: 2px solid darkgoldenrod;
-    height:100%;
+   
     width: 100%;
 
+}
+.box-img > img{
+    width: 80%;
+}
+
+h2{
+    padding-left: 15%;
+    padding-top: 10%;
+    color: #958d87;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    padding-left: 15%;
+    padding-top: 2%;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-size: 41px;
+}
+
+p{
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    color: #a3a1a3;
+    font-family: "Roboto", sans-serif;
+}
+
+.ri-subtract-line{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 15%;
+    
+}
+
+.add{
+  margin-top: 5%;
+   margin-left: 15%;
+   width: 24%;
+   height: 60px;
+   color: white;
+   background-color: #e89c2d;
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+}
+
+.add:hover{
+    border: 1px solid #e89c2d;
+    background-color: white;
+    color: #e89c2d;
+}
+
+.more{
+    margin-top: 5%;
+  
+    width: 24%;
+    height: 60px;
+    color: #e89c2d;
+    background-color:white;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+     border: none;
+}
+
+.more:hover{
+    border: 1px solid #e89c2d;
+}
+
+
+.container1{
+    max-width: 1320px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box2{
+    border: 1px solid green;
+    width: 25%;
+}
+
+.box2:hover h3{
+    color: #e89c2d;
+}
+
+.box1{
+    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-feel{
+    border: 1px solid black;
+    height: 100%;
+    
+}
+.img1{
+    padding-left: 28%;
+    padding-top: 10%;
+}
+
+.img3{
+    padding-left: 28%;
+    
+}
+
+
+h3{
+    padding-left: 35%;
+    padding-top: 5%;
+    font-family: "Roboto", sans-serif;
+    color: #5d5c5b;
+}
+
+.Hanging{
+    padding-left: 30%;
+    padding-top: 5%;
+    font-family: "Roboto", sans-serif;
+    color: #5d5c5b;
+}
+.arr{
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    color: #a3a1a3;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.imgchair2{
+    border: 1px solid green;
+    width: 30%;
+    height: 100%;
+}
+
+.imgcontaint{
+    border: 1px solid red;
+    width: 70%;
+    height: 100%;
+}
+
+.imgchair2 > img{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+h4{
+    font-family: "Roboto", sans-serif;
+    color: #5d5c5b;
+    font-size: 18px;
 }

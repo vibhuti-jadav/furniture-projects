@@ -2,8 +2,17 @@
     .w-md{
         display: none;
     }
+    .box2{
+        width: 100%;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box-two{
+        width: 100%;
+    }
+    
    
-
 }
 
 @media(min-width:1669px){
