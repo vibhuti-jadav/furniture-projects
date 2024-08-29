@@ -214,17 +214,21 @@ p{
 
 .container1{
     max-width: 1320px;
-    border: 1px solid red;
     margin: auto;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     
 }
 
 .box2{
-    border: 1px solid green;
+    
     width: 25%;
+    padding: 10px;
+}
+.box2 > img{
+    width: 60%;
 }
 
 .box2:hover h3{
@@ -232,16 +236,20 @@ p{
 }
 
 .box1{
-    border: 1px solid blue;
+    
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+     padding: 10px;
+     
+}
+.box1:hover button{
+    color: white;
+    background-color: #5f5b57;
 }
 
 .box-feel{
-    border: 1px solid black;
-    height: 100%;
-    
+     background-color: #f8f9fd;
 }
 .img1{
     padding-left: 28%;
@@ -277,15 +285,21 @@ h3{
 }
 
 .imgchair2{
-    border: 1px solid green;
+    
     width: 30%;
-    height: 100%;
+    
+    background-color: #f8f9fd;
+}
+
+.imgchair2 > img{
+    width: 85%;
 }
 
 .imgcontaint{
-    border: 1px solid red;
+   
     width: 70%;
-    height: 100%;
+    
+    background-color: #f8f9fd;
 }
 
 .imgchair2 > img{
@@ -297,4 +311,246 @@ h4{
     font-family: "Roboto", sans-serif;
     color: #5d5c5b;
     font-size: 18px;
+    padding-top: 10%;
+}
+
+.between{
+    text-align: start;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 15%;
+}
+
+h6{
+    font-size: 14px;
+    color: #5f5b57;;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 5px;
+}
+
+.color{
+    color:orange;
+}
+
+.dis{
+    width: 30%;
+    height: 40px;
+    margin-top: 5%;
+    color: #5f5b57;;
+    border: 1px solid  #5f5b57;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.NA{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #5f5b57;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 0%;
+    padding-bottom: 3%;
+}
+
+
+.container2{
+    border: 1px solid red;
+    margin: auto;
+    max-width: 1320px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main-arri-box{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+ 
+.box-arrivals{
+    border: 1px solid blue;
+    width: 25%;
+    padding: 10px;
+}
+
+
+.box-ariimg{
+    border: 1px solid blue;
+    background-color: #f8f9fd;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containerfp{
+   
+    max-width: 1320px;
+    margin: auto;
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-product{
+    
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    
+    width: 25%;
+    padding: 10px;
+}
+
+
+
+.produc-img > img{
+    width: 100%;
+    
+}
+
+
+
+.price{
+    
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.text{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #5f5b57;
+    padding-top: 8px;
+   
+}
+
+.containerlb{
+  
+    max-width: 1320px;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main-blog{
+    
+    width: 100%;
+     display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box-lb{
+    width: 33.33%;
+    transition: all 0.8s;
+    padding: 10px;
+}
+
+.box-lb:hover h2{
+        color: orange;
+
+}
+
+.box-lb-img{
+   
+    width: 100%;
+    
+}
+.box-lb-con{
+    
+    width: 100%;
+    
+}
+
+.box-lb-img > img{
+    width: 100%;
+}
+
+.lbh2{
+    font-size: 16px;
+    color: #5f5b57;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5%;
+    padding-left: 0%;
+}
+h5{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #bcb7b2;
+    padding-top: 3%;
+}
+
+.lbp{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: #95908b;
+    padding-left: 0%;
+    padding-right: 6%;
+    line-height: 22px;
+}
+
+.bg-color{
+    background-color: #f8f9fd;
+}
+.containerlogo{
+    
+    max-width: 1320px;
+    margin: auto;
+   overflow-x: hidden;
+    margin-top: 4%;
+    padding: 10px;
+}
+
+.box-logo{
+
+    
+    display: flex;
+    
+    
+}
+
+.box-logo-5{
+    
+    width: 259px;
+    display: flex;
+   justify-content: center;
+   padding: 5%;
+}
+
+.containerfooter{
+    border: 1px solid green;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 5%;
+    height: 300px;
+    padding: 10px;
+}
+
+.box-footer{
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box-4-foo{
+    border: 1px solid blue;
+    width: 25%;
 }

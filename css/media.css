@@ -26,6 +26,106 @@
 @media(min-width:992px){
     .w-md-1{
         display: none;
+        
+    }
+
+ 
+}
+
+@media(max-width:991px){
+    .w-lg-1{
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: auto;
+        
+    }
+
+    .w-lg{
+        max-width: 350%;
+    }
+
+    .box-arrivals{
+        width: 33.33%;
+        height: 80%;
+    }
+
+    .main-product{
+        
+        width: 187%;
+    }
+    .product{
+        width: 25%;
+        
+        margin: auto;
+    }
+    .produc-img{
+        height: 180px;
+        width: 157px;
+        margin: auto;
+    }
+    .produc-cont{
+        
+        width: 157px;
+        margin: auto;
+    }
+
+    .box-lb{
+        width: 33.33%;
+        margin: auto;
+    }
+}
+
+@media(max-width:767px){
+    .box-arrivals{
+        width: 100%;
+        margin: auto;
+    }
+
+    .product{
+        width: 100%;
+        margin: auto;
+    }
+
+    .produc-img{
+        height: 310px;
+        width: 270px;
+        margin: auto;
+    }
+    .produc-cont{
+        padding-top: 5%;
+        width: 270px;
+        margin: auto;
+    }
+
+    .box-lb{
+         width: 100%;
+         height: 380px;
+         margin: auto;
+    }
+
+    .box-lb-img{
+        max-width: 270px;
+        
+        margin: auto;
+    }
+
+    .box-lb-con{
+        max-width: 270px;
+       
+        margin: auto;
+    }
+    
+    .box-4-foo{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:992px){
+    .box-4-foo{
+        width: 50%;
     }
 }
 
