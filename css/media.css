@@ -2,16 +2,45 @@
     .w-md{
         display: none;
     }
+   
+   
+    .box-two{
+        width: 100%;
+    }
+
     .box2{
         width: 100%;
     }
     .box1{
         width: 100%;
     }
-    .box-two{
-        width: 100%;
+    .w-1{
+        width: 100% !important;
     }
-    
+
+    .boxpimg{
+        max-width: 350px;
+        margin: auto;
+    }
+    .boxpimg2{
+        max-width: 350px;
+        margin: auto;
+    }
+
+
+    /* .box-2-imgcont{
+        width: 100%;
+    } */
+
+    .box-2-img{
+       
+        margin: auto;
+    }
+
+    .box-2-cont{
+        margin: auto;
+    }
+
    
 }
 
@@ -42,12 +71,12 @@
     }
 
     .w-lg{
-        max-width: 350%;
+        max-width: 350px;
     }
 
     .box-arrivals{
         width: 33.33%;
-        height: 80%;
+        
     }
 
     .main-product{
@@ -117,8 +146,9 @@
     }
     
     .box-4-foo{
-        width: 100%;
+        width: 100% !important;
     }
+  
 
 
 }
