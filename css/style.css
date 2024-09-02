@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar{
    
@@ -14,6 +17,7 @@
     top: 0%;
     background-color:#f8f9fd;
     z-index: 100;
+ 
 }
 
 .box{
@@ -34,6 +38,9 @@ a{
     justify-content: end;
     padding:30px;
     color: #606060;
+    text-decoration: none;
+    transition: all 0.5s;
+   
 }
 
 .item{
@@ -105,38 +112,41 @@ button{
     left: 50%;
     width: 200px;   
     display: flex;
-    border: 1px solid red;
+ 
+    padding-top: 4%;
+   
+    
 }
 
 
 .link > a{
     font-size: 15px;
-    background-color: black;
+    border: 2px solid orange;
     border-radius: 10px;
-
+    padding: 2%;
+    margin-left: 4%;
 }
 
 
 .container{
-    border: 1px solid red;
-   
-     max-width: 1350px;
-    overflow-x: scroll;
+    
+    max-width: 1350px;
+    overflow-x: hidden;
     margin: auto;
     position: relative;
-    
+    padding-bottom: 5%;
    
 }
 
 .slider{
-    border: 1px solid blue;
+   
     width: 300%;
     height: 100%;
     display: flex;
 }
 
 .box-sli{
-    border: 1px solid green;
+  
     width: 100%;
     height: 100%;
     display: flex;
@@ -144,7 +154,7 @@ button{
 }
 
 .box-two{
-    border: 1px solid orchid;
+   
     width: 50%;
     padding-top: 10%;
 }
@@ -156,7 +166,7 @@ button{
 }
 
 .box-img{
-    border: 2px solid darkgoldenrod;
+  
    
     width: 100%;
 
@@ -190,12 +200,12 @@ button{
     .box2{
        
         width: 25%;
-        
+        transition: all 0.8s;
         padding: 5px;
     }
 
     .box1{
-       
+        transition: all 0.8s;
         width: 50%;
        
     }
@@ -224,7 +234,7 @@ button{
 
     .boxpimg{
         background-color: #f8f9fd;
-       
+        
        
         /* display: flex; */
     }
@@ -369,6 +379,7 @@ p{
    background-color: #e89c2d;
    font-size: 16px;
    font-family: "Roboto", sans-serif;
+   transition: all 0.6s;
 }
 
 .add:hover{
@@ -383,10 +394,11 @@ p{
     width: 24%;
     height: 60px;
     color: #e89c2d;
- background-color: #f8f9fd;
+     background-color: #f8f9fd;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
      border: none;
+     transition: all 0.6s;
 }
 
 .more:hover{
@@ -871,7 +883,7 @@ li{
     color: #a09e9c;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    transition: width 2s;
+    
 }
 
 li:hover{
@@ -904,6 +916,11 @@ li:hover{
     color: #5f5b57;
 
 }
+.ri-send-plane-fill{
+    padding-left: 36%;
+    color: orange;
+    font-size: 20px;
+}
 
 .containerfooterlast{
     
@@ -924,6 +941,7 @@ li:hover{
 .icons > i{
     font-size: 18px;
     color: #a09e9c;
+    padding: 2%;
 }
 
 i:hover {
