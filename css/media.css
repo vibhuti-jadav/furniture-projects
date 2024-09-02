@@ -55,7 +55,7 @@
 @media(min-width:992px){
     .w-md-1{
         display: none;
-        
+        margin: auto;
     }
 
  
