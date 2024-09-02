@@ -115,6 +115,10 @@
         margin: auto;
     }
 
+    .box-item{
+        padding-top: 50px;
+    }
+
     .product{
         width: 100%;
         margin: auto;
