@@ -9,25 +9,43 @@ html{
 
 .navbar{
    
-    width: 100%;
-   
+    max-width: 1320px;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    position: sticky;
+    justify-content: space-between;
+    padding: 20px 20px ;
+    align-items: center;
     top: 0%;
-    background-color:#f8f9fd;
-    z-index: 100;
+
+    background-color: white;
+    
+   
  
 }
 
-.box{
-   
-    width: 23%;
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+     z-index: 100;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+     padding-bottom: 10px;
+}
+
+.w-100{
+    
+    max-width: 100px;
  
 }
+.logo{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
 
 .box:nth-child(2){
-    width: 50%;
+    width: 100%;
 }
 
 a{
@@ -36,7 +54,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    padding:30px;
     color: #606060;
     text-decoration: none;
     transition: all 0.5s;
@@ -46,23 +63,25 @@ a{
 .item{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .box-lists{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    margin-left:25%;
+    justify-content: center;
+   gap: 4%;
    
 }
 
 .it{
     font-size: 16px;
     color: #606060;
-    padding:30px;
+   
     margin-top: 10px;
     margin-left: 0px 0px -2px;
     font-size: 16px;
-    gap: 2px;
+   
     font-family: "Roboto", sans-serif;
 }
 
@@ -72,16 +91,14 @@ a{
 
 .box-icons{
     display: flex;
-    flex-wrap: wrap;
-   
+    justify-content: space-between;
     height: 100%;
-    
+    gap:10px;
 }
 
 .box-icons i{
     font-size: 25px;
-    padding:10px;
-    margin-top: 30px;
+  
   
 }
 .ri-search-line:hover{
@@ -103,8 +120,19 @@ button{
     border: 1px solid orange;
     color: orange;
 }
-.ri-menu-line:hover{
+
+
+.ri-menu-line{
     color:orange;
+    font-size: 20px;
+    font-weight: 700;
+ 
+}
+
+.btn-nav{
+    width: 32px;
+    height: 40px;
+    background-color: transparent;
 }
 
 .link{
@@ -134,8 +162,7 @@ button{
     overflow-x: hidden;
     margin: auto;
     position: relative;
-    padding-bottom: 5%;
-   
+    padding-bottom: 10%;
 }
 
 .slider{
