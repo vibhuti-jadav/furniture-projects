@@ -1,9 +1,23 @@
 @media(max-width:992px){
     .w-md{
         display: none;
+        position: absolute;
+        left: 2%;
+        top: 80px;
+        width:50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color:#e5eaeb;
+        border-radius: 10px;
     }
-   
-   
+    .box-lists{
+        flex-direction: column;
+        align-items: start;
+        line-height: 30px;
+        padding: 2%;
+
+    }
+
+  
     .box-two{
         width: 100%;
     }
